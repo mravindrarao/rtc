@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv='Content-Type' content='text/html;
+      charset=ISO-8859-1'>
+<script src='http://code.jquery.com/jquery-1.9.1.min.js'></script>
+<script src='t2uprovider.js'></script>
+<link rel='stylesheet' type='text/css' href='common.css' />
+<title>Talk2Us</title>
+</head>
+<body>
+  <div id="container">
+    <div id="local">
+      <video id="local-video" autoplay="autoplay"></video>
+    </div>
+    <div class='spacer'></div>
+    <div id='remote'>
+      <video id="remote-video" autoplay="autoplay" ></video>
+    </div>
+  </div>
+  <button id='connectbtn' onclick='connect()' disabled>Connect</button>
+  <button id='hangupbtn' onclick='hangup()' disabled>Hang Up</button>
+</body>
+</html>
